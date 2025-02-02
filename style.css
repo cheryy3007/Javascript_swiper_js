@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color: #fccea7;
+}
+.header{
+    width: 1728px;
+    height: 1117px;   
+    margin: 0 auto;
+}
+.container{
+    margin: 0 155px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+.nav ul{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    color: #1C1415;   
+    display: flex;
+    gap: 90px;
+    position: relative;
+    left: 557px;
+    top: 5px;
+}
+.btn{
+    width:168px;
+    height: 64px;
+    padding: 14px 38px 14px 38px;
+    gap: 10px;
+    border-radius: 50px;
+    background: #1C1415;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    left: 650px;
+}
+.header-content{
+    position: relative;
+    top: 262px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content_text {
+    max-width: 50%;
+}
+.header-content_text h1{
+    font-family: "Sofia Sans", serif;
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 104.12px;
+    letter-spacing: -0.01em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color: #FFFFFF;
+}
+.header-content_text h2{
+    font-family: "Sofia Sans", serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 60.06px;
+    letter-spacing: -0.01em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;    
+}
+.header-content_text p{
+    width: 613px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 45.6px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 70px;
+}
+.header-content_text h3{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95.9px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-top: 48px;
+}
+.header-content_text img{
+    margin-top: 69px;
+}
+.swiper {
+ 
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Уберем "лесенку" из часов */
+    top: 0;
+    left: 550px;
+    transform: translateX(-50%);
+  }
+  
+  .swiper-slide img {
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 10;
+  }
+  
+
